@@ -110,3 +110,30 @@ header{
     border-left: 1px solid #000;   
     cursor: pointer;
 }
+
+.swiper{
+    height: 100vh;
+    width: 100%;
+}
+
+.swiper .swiper-wrapper{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.swiper .swiper-wrapper .swiper-slide{
+        height: 100vh;
+    width: 100%;
+}
+
+.swiper .swiper-wrapper .swiper-slide::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0,0.6);
+}
