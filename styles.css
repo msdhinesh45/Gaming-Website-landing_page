@@ -43,6 +43,7 @@ header{
     font: 2em;
 }
 
+/* Nav bar design */
 .nav{
     display: flex;
 }
@@ -111,6 +112,7 @@ header{
     cursor: pointer;
 }
 
+/* Carousel Design */
 .swiper{
     height: 100vh;
     width: 100%;
@@ -136,4 +138,12 @@ header{
     right: 0;
     bottom: 0;
     background: rgba(0, 0, 0,0.6);
+}
+
+.swiper .swiper-wrapper .swiper-slide img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
