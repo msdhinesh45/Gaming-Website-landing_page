@@ -246,3 +246,9 @@ li{
     height: 700px;
     border-radius: 50%;
 }
+
+.swiper .swiper-wrapper .swiper-slide .banner .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
