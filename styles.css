@@ -339,3 +339,14 @@ li{
 #char-img{
     margin-left: 250px;
 }
+
+.swiper .swiper-wrapper .swiper-slide .banner .right{
+    position: relative;
+    height: 100vh;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    z-index: 100;
+}
