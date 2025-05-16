@@ -303,3 +303,39 @@ li{
 .banner .left .features .pricing ion-icon:hover{
     background: rgba(255, 0, 0,0.9);
 }
+
+
+.banner .left .features .content h4{
+    font-size: 1.4em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 6px 5px;
+}
+.banner .left .features .content {
+    margin-left: 20px;
+}
+
+.banner .left .features .content span{
+    font-size: 0.7em;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+.banner .left .features .content .subtitle{
+    color: var(--primary);
+}
+
+.banner h1{
+    position: absolute;
+    top: 550px;
+    color: #fff;
+    letter-spacing: 5px;
+    line-height: 0.9;
+    z-index: 10;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+#char-img{
+    margin-left: 250px;
+}
