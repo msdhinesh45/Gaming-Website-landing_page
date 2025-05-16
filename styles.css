@@ -252,3 +252,54 @@ li{
     flex-direction: column;
     justify-content: space-around;
 }
+
+
+.banner .left .features{
+    position: absolute;
+    top: 300px;
+    max-width: 400px;
+    margin-bottom: 100px;
+}
+
+.banner .left .features .rating{
+    color: whitesmoke;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    margin-bottom: 25px;
+}
+.banner .left .features .rating .score{
+    padding: 15px;
+    font-size: 2em;
+    font-weight: 400;
+    color: var(--primary);
+    background: #fff;
+}
+
+.banner .left .features .rating .content{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.banner .left .features .pricing{
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.banner .left .features .pricing ion-icon{
+    padding: 15px;
+    font-size: 3em;
+    font-weight: 400;
+    color: #ffffff;
+    background: rgba(255, 0, 0,0.6);
+    transition: 1s;
+}
+
+.banner .left .features .pricing ion-icon:hover{
+    background: rgba(255, 0, 0,0.9);
+}
