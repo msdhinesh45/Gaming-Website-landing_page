@@ -15,7 +15,7 @@ body{
     background: #000;
     font-family: sans-serif;
     width: 100%;
-    min-height: 100vh;
+    min-height: 100%;
     overflow: hidden;
 }
 
@@ -225,7 +225,7 @@ li{
 
 .swiper .swiper-wrapper .swiper-slide .banner img{
     position: relative;
-    left: -95px;
+    right: 215px;
     top: 50%;
     /* transform: translateY(-50%); */
     max-width: 700px;
@@ -336,17 +336,62 @@ li{
     font-family: cursive;
 }
 
-#char-img{
+/* #char-img{
     margin-left: 190px;
-}
+} */
 
 .swiper .swiper-wrapper .swiper-slide .banner .right{
-    position: relative;
+    position: absolute;
     height: 100vh;
     max-width: 450px;
     display: flex;
+    right:50px ;
+    top: 50px;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-end;
     z-index: 100;
 }
+
+.banner .right .description{
+    padding: 30px 60px 0 0;
+    color: #ffffff;
+    list-style: none;
+}
+
+.banner .right .description h4{
+    display: inline-block;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .right .description h4 ion-icon{
+    margin-right: 10px;
+}
+
+.banner .right .description p{
+    margin: 5px 0 25px 30px;
+    font-weight: 200;
+}
+
+.banner .right h2{
+    color: #fff;
+    margin-top: 130px;
+    font-size: 2.5em;
+    line-height: 1em;
+    font-weight: 400;
+    text-align: right;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.banner .right iframe{
+    max-width: 450px;
+    max-height: 255px;
+    margin-bottom: 70px;
+}
+
